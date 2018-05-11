@@ -6,6 +6,9 @@ management:
       base-path: '/'
   server:
     port: 8081
+  endpoint:
+    shutdown:
+      enabled: true
 ---
 spring:
   profiles: dev
